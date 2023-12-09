@@ -1,0 +1,93 @@
+[2023-11-25 19:32:52] Bruce has successfully signed in 
+[2023-11-25 19:52:46] Bruce has successfully signed in 
+[2023-11-25 19:55:05] Clark has successfully signed in 
+[2023-11-25 19:55:23] Update successful 
+[2023-11-25 19:55:43] Deletion successful 
+[2023-11-25 20:24:46] Clark has successfully signed in 
+[2023-11-25 20:26:26] Clark has successfully signed in 
+[2023-11-25 20:26:30] Logging out! 
+[2023-11-25 20:26:53] Bruce has successfully signed in 
+[2023-11-25 20:26:55] Logging out! 
+[2023-11-25 20:29:13] Diana has successfully signed in 
+[2023-11-25 20:29:24] Diana had successfully logged out! 
+[2023-11-26 01:43:58] Test had successfully logged out! 
+[2023-11-26 01:44:02] Bruce has successfully signed in 
+[2023-11-26 01:44:07] Deletion successful 
+[2023-11-26 01:44:12] Bruce had successfully logged out! 
+[2023-11-26 02:11:51] Bruce has successfully signed in 
+[2023-11-26 17:53:52] Bruce has successfully signed in 
+[2023-11-26 17:54:53] Deletion successful 
+[2023-11-26 17:54:56] Deletion successful 
+[2023-11-26 17:55:01] Deletion successful 
+[2023-11-26 17:55:04] Deletion successful 
+[2023-11-26 18:00:30] Bruce has successfully signed in 
+[2023-11-26 18:00:37] Bruce had successfully logged out! 
+[2023-11-26 18:01:22] Bruce has successfully signed in 
+[2023-11-26 18:01:25] Bruce had successfully logged out! 
+[2023-11-26 18:02:56] Bruce has successfully signed in 
+[2023-11-26 18:11:39] Bruce has successfully signed in 
+[2023-11-26 18:13:27] Bruce has successfully signed in 
+[2023-11-26 18:15:03] Bruce has successfully signed in 
+[2023-11-26 18:15:16] Bruce has successfully signed in 
+[2023-11-26 18:15:40] Bruce has successfully signed in 
+[2023-11-26 18:16:16] Bruce has successfully signed in 
+[2023-11-26 18:16:30] Deletion successful 
+[2023-11-26 18:16:35] Deletion successful 
+[2023-11-26 18:16:39] Deletion successful 
+[2023-11-26 18:16:42] Deletion successful 
+[2023-11-26 18:16:44] Deletion successful 
+[2023-11-26 18:16:47] Deletion successful 
+[2023-11-26 18:16:53] Deletion successful 
+[2023-11-26 18:16:55] Deletion successful 
+[2023-11-26 18:17:04] Bruce had successfully logged out! 
+[2023-11-26 18:17:08] Bruce has successfully signed in 
+[2023-11-26 18:17:15] Bruce had successfully logged out! 
+[2023-11-26 18:17:19] Bruce has successfully signed in 
+[2023-11-26 18:17:25] Bruce had successfully logged out! 
+[2023-11-26 18:17:29] Bruce has successfully signed in 
+[2023-11-26 18:17:45] Update successful 
+[2023-11-26 18:18:19] Deletion successful 
+[2023-11-26 18:18:22] Deletion successful 
+[2023-11-26 18:18:28] Deletion successful 
+[2023-11-26 18:18:31] Deletion successful 
+[2023-11-26 18:22:31] Bruce had successfully logged out! 
+[2023-11-26 18:23:46] Bruce has successfully signed in 
+[2023-11-26 18:24:00] Update successful 
+[2023-11-26 18:25:57] Bruce had successfully logged out! 
+[2023-11-26 18:26:00] Bruce has successfully signed in 
+[2023-11-26 18:27:43] Bruce had successfully logged out! 
+[2023-11-26 18:27:46] Bruce has successfully signed in 
+[2023-11-26 18:41:24] Bruce has successfully signed in 
+[2023-11-26 18:54:03] Bruce has successfully signed in 
+[2023-11-26 18:54:16] Bruce has successfully signed in 
+[2023-11-26 18:55:00] Bruce had successfully logged out! 
+[2023-11-26 18:55:04] Bruce has successfully signed in 
+[2023-11-26 18:55:09] Deletion successful 
+[2023-11-26 18:55:12] Deletion successful 
+[2023-11-27 01:38:38] Bruce has successfully signed in 
+[2023-11-27 01:40:04] Bruce had successfully logged out! 
+[2023-11-27 01:40:13] Bruce has successfully signed in 
+[2023-11-27 01:41:51] Bruce has successfully signed in 
+[2023-11-27 01:42:17] Bruce had successfully logged out! 
+[2023-11-27 01:46:05] Bruce has successfully signed in 
+[2023-11-27 01:49:27] Bruce had successfully logged out! 
+[2023-11-27 01:49:37] Bruce has successfully signed in 
+[2023-11-27 01:49:54] Update successful 
+[2023-11-27 01:50:13] Update successful 
+[2023-11-27 01:50:25] Deletion successful 
+[2023-11-27 01:52:57] Bruce had successfully logged out! 
+[2023-11-27 02:28:41] Bruce has successfully signed in 
+[2023-11-27 02:28:46] Bruce has successfully signed in 
+[2023-11-27 02:28:56] Bruce had successfully logged out! 
+[2023-12-05 20:45:35] Bruce has successfully signed in 
+[2023-12-05 20:46:17] Bruce had successfully logged out! 
+[2023-12-05 20:46:31] Bruce has successfully signed in 
+[2023-12-05 20:47:20] Update successful 
+[2023-12-06 01:15:43] Update successful 
+[2023-12-06 01:15:49] Update successful 
+[2023-12-06 01:23:49] Bruce had successfully logged out! 
+[2023-12-06 01:23:54] Bruce has successfully signed in 
+[2023-12-06 01:26:41] Bruce has successfully signed in 
+[2023-12-06 01:29:45] Bruce has successfully signed in 
+[2023-12-06 01:33:37] Bruce had successfully logged out! 
+[2023-12-06 01:33:41] Bruce has successfully signed in 

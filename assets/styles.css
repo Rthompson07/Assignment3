@@ -1,0 +1,170 @@
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+}
+
+.profile-picture{
+    width: 50%;
+    height: 80px;
+    display: block;
+}
+
+.index_h1
+{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    height: 100%;
+    font-size: 50px;
+
+
+
+}
+h1.index_h1 {
+
+}
+
+.index_p1
+{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    height: 100%;
+    font-size: 16px;
+
+
+}
+
+body
+{
+    min-height: 100vh;
+}
+/*Footer css*/
+.header
+{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: slateblue ;
+
+}
+/*Footer css*/
+.footer
+{
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: px 0;
+    background-color: slateblue;
+    position: sticky;
+    top: 100%;
+
+}
+
+
+
+
+.inner_header
+{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    /*background-color: black;*/
+}
+
+.inner_footer
+{
+    width: 1000px;
+    height: 30%;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.inner_footer .footer_container
+{
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+
+.inner_footer .footer_container img
+{
+   width: 60px;
+
+    height: auto;
+}
+
+.logo_container
+{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container img
+{
+    width: 45px;
+    height: 100px;
+
+}
+
+.logo_container h1
+{
+    color: azure;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 32px;
+}
+
+.logo_container h1 span
+{
+    font-weight: 800;
+}
+
+h2
+{
+color: white;
+}
+
+p span
+{
+    color: white;
+}
+
+.navbar_header
+{
+    float: right;
+    height: 100%;
+}
+
+.navbar_header a
+{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+}
+
+.navbar_header a:last-child
+{
+   padding-right: 0;
+}
+
+.navbar_header a li
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Verdana', serif;
+    font-size: 12px;
+}
+
+
+
