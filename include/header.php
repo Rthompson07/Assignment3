@@ -56,11 +56,12 @@ echo '<!DOCTYPE html>
         </div>
 
         <ul class=navbar_header>
-            <a href="http://localhost:8080/Assignment2/dashboard.php"><li>Home</li></a>
-            <a href="http://localhost:8080/Assignment2/user_profile.php"><li>User Profile</li></a>
-            <a href="http://localhost:8080/Assignment2/sandbox.php"><li>Paypal Sandbox</li></a>
-            <a href="http://localhost:8080/Assignment2/about.php"><li>About</li></a>
-            <a href="http://localhost:8080/Assignment2/logout.php"><li>Log-Out</li></a>
+            <a href="http://localhost:8080/Assignment3/dashboard.php"><li>Home</li></a>
+            <a href="http://localhost:8080/Assignment3/user_profile.php"><li>User Profile</li></a>
+            <a href="http://localhost:8080/Assignment3/sandbox.php"><li>Paypal Sandbox</li></a>
+            <a href="http://localhost:8080/Assignment3/sandbox.php"><li>Upload Files</li></a>
+            <a href="http://localhost:8080/Assignment3/about.php"><li>About</li></a>
+            <a href="http://localhost:8080/Assignment3/logout.php"><li>Log-Out</li></a>
         </ul>
     </div>
 </div>';
