@@ -33,18 +33,20 @@
             - Ensure proper ordering if including multiple JavaScript files.
             - Consider responsiveness in any footer design.
             */
-
-            // 1. Display common footer content
-            echo "<div class='footer'>
-    
+            ?>
+            <!--// 1. Display common footer content-->
+            <div class='footer'>
                     <h2>Developers</h2>
-                    
-                    <p><span>&copy; " . date('Y') . " INFT-2100-Group 2, Rhys Thompson 100845373, Mercelena Erazo 100884604, Raisa Nasara 100887894.</span></p>
-                    <!-- You can add more footer links or information here -->
-                </div>";
 
-            // 2. Close any opened tags or resources
-            echo '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+                    <?php echo "<p><span>&copy; " . date('Y') . " INFT-2100-Group 2, Rhys Thompson 100845373, Mercelena Erazo 100884604, Raisa Nasara 100887894.</span></p>"?>
+                    <!-- You can add more footer links or information here -->
+                    <a href="http://localhost:8080/Assignment3/acceptable_use_policy.php"><li>Acceptable Use Policy</li></a>
+                    <a href="http://localhost:8080/Assignment3/privacy_policy.php"><li>Privacy Policy</li></a>
+                    <a href="http://localhost:8080/Assignment3/terms_of_service.php"><li>Terms of Service</li></a>
+            </div>;
+
+            <!--// 2. Close any opened tags or resources -->
+            echo '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
                             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
                             crossorigin="anonymous"></script>';
             ?>
