@@ -17,8 +17,22 @@ if (isset($_SESSION['user_authenticated']) && $_SESSION['user_authenticated'] ==
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
+
+<style>
+    .terms {
+        text-align: left;
+        margin-left: 50px;
+        text-decoration: underline;
+    }
+</style>
+
+
+<h1><span class = "terms">Terms Of Service</h1>
+
+
 <div class="container mt-5">
     <?php
+
     $filename = 'policies/terms_of_service.txt';
 
     // Check if the file exists
