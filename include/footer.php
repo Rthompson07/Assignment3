@@ -35,15 +35,25 @@
             */
             ?>
             <!--// 1. Display common footer content-->
-            <div class='footer'>
-                    <h2>Developers</h2>
+            <style>
+                a.footer-link {
+                    color: white;
+                    text-decoration: none;
+                }
 
-                    <?php echo "<p><span>&copy; " . date('Y') . " INFT-2100-Group 2, Rhys Thompson 100845373, Mercelena Erazo 100884604, Raisa Nasara 100887894.</span></p>"?>
-                    <!-- You can add more footer links or information here -->
-                    <a href="http://localhost:8080/Assignment3/acceptable_use_policy.php"><li>Acceptable Use Policy</li></a>
-                    <a href="http://localhost:8080/Assignment3/privacy_policy.php"><li>Privacy Policy</li></a>
-                    <a href="http://localhost:8080/Assignment3/terms_of_service.php"><li>Terms of Service</li></a>
-            </div>;
+                a.footer-link:hover {
+                    color: blue; /* Change this to the desired hover color */
+                }
+            </style>
+
+            <div class='footer'>
+                <h2>Developers</h2>
+                <a href="http://localhost:8080/Assignment3/acceptable_use_policy.php" class="footer-link"><li>Acceptable Use Policy</li></a>
+                <a href="http://localhost:8080/Assignment3/privacy_policy.php" class="footer-link"><li>Privacy Policy</li></a>
+                <a href="http://localhost:8080/Assignment3/terms_of_service.php" class="footer-link"><li>Terms of Service</li></a>
+                <?php echo "<p><span>&copy; " . date('Y') . " INFT-2100-Group 2, Rhys Thompson 100845373, Mercelena Erazo 100884604, Raisa Nasara 100887894.</span></p>"?>
+            </div>
+
 
             <!--// 2. Close any opened tags or resources -->
             echo '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -56,12 +66,4 @@
 </body>
 </html>
 
-<style>
-    /* Add styling for the footer logo */
-    .footer-logo {
-        vertical-align: middle; /* Align the image vertically with text */
-        margin-right: 10px; /* Add some margin to the right of the image for spacing */
-    }
 
-    /* Add more styling for your footer as needed */
-</style>

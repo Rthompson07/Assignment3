@@ -17,7 +17,25 @@ if (isset($_SESSION['user_authenticated']) && $_SESSION['user_authenticated'] ==
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
+<style>
+    .terms {
+        text-align: Center;
+
+        text-decoration: underline;
+    }
+
+    .terms_dent{
+        text-align: left;
+        margin-left: 50px;
+        text-decoration: underline;
+
+    }
+</style>
+
+
 <div class="container mt-5">
+    <h1><span class="terms">Acceptable Use Policy</span></h1>
+    <p><span class="terms_dent"></span>Group 3 INFT-2100 Group 3</p>
     <?php
     $filename = 'policies/acceptable_use_policy.txt';
 
@@ -35,7 +53,6 @@ if (isset($_SESSION['user_authenticated']) && $_SESSION['user_authenticated'] ==
     ?>
 
 
-</div>
 </body>
 
 </html>
