@@ -63,5 +63,6 @@ if(isset($_POST["submit"]) && isset($_FILES["fileToUpload"])){
 }
 
 // Add a "Return to Form" button with indentation
+echo "File name updated successfully!";
 echo '<br><button style="margin-left: 20px;"><a href="File_Upload_Form.php" style="text-decoration: none; color: inherit;">Return to Form</a></button>';
 ?>

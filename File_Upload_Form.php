@@ -123,9 +123,18 @@ if (count($files) > 2) {
             echo " | ";
             echo "<a href='File_Edit_Form.php?edit={$file}'>Edit</a>";
             echo " | ";
-            echo "<a href='upload_file_render.php?move={$file}'>Move</a>";
-            echo "</td>";
+            echo "<a href='#' onclick=\"openFileExplorer()\">Move</a>";
 
+// Hidden file input element
+            echo "<input type='file' id='fileInput' style='display: none;'>";
+
+            echo "<script>
+    function openFileExplorer() {
+        // Trigger the click event of the file input element
+        document.getElementById('fileInput').click();
+    }
+</script>";
+            echo "</td>";
             echo "</tr>";
         }
     }

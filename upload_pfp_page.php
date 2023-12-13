@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Check if the form was submitted
     if (isset($_FILES["uploadedImage"])) {
         // Define the target directory for uploaded images
-        $targetDirectory = "uploads/";
+        $targetDirectory = "pfpupload/"; // Updated target directory
 
         // Generate a unique filename for the uploaded image
         $targetFileName = $targetDirectory . uniqid() . '_' . basename($_FILES["uploadedImage"]["name"]);
@@ -36,6 +36,7 @@ $email_address = $_SESSION['email_address'];
 $first_name = $_SESSION['first_name'];
 $last_name = $_SESSION['last_name'];
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
