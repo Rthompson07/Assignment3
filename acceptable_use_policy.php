@@ -36,6 +36,7 @@ if (isset($_SESSION['user_authenticated']) && $_SESSION['user_authenticated'] ==
 <div class="container mt-5">
     <h1><span class="terms">Acceptable Use Policy</span></h1>
     <p><span class="terms_dent"></span>Group 3 INFT-2100 Group 3</p>
+</div>
     <?php
     $filename = 'policies/acceptable_use_policy.txt';
 

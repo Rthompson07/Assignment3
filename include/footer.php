@@ -51,7 +51,8 @@
                 <a href="http://localhost:8080/Assignment3/acceptable_use_policy.php" class="footer-link"><li>Acceptable Use Policy</li></a>
                 <a href="http://localhost:8080/Assignment3/privacy_policy.php" class="footer-link"><li>Privacy Policy</li></a>
                 <a href="http://localhost:8080/Assignment3/terms_of_service.php" class="footer-link"><li>Terms of Service</li></a>
-                <?php echo "<p><span>&copy; " . date('Y') . " INFT-2100-Group 2, Rhys Thompson 100845373, Mercelena Erazo 100884604, Raisa Nasara 100887894.</span></p>"?>
+                <a href="http://localhost:8080/Assignment3/sign-in.php" class="footer-link"><li>Sign In Page</li></a>
+                <?php echo "<p><span>&copy; " . date('Y') . " INFT-2100-Group 3, Rhys Thompson 100845373, Mercelena Erazo 100884604, Raisa Nasara 100887894.</span></p>"?>
             </div>
 
 
