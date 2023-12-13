@@ -1,10 +1,4 @@
-<!-- File_Upload_Form.Php
-Author: Group 3
-
--->
-
 <?php
-
 //session_start();
 
 include 'include/header.php';
