@@ -41,7 +41,7 @@ echo '<div class="alert alert-success" role="alert"> Welcome ' . $first_name . '
     </div>
 
     <!-- Link to upload profile picture page -->
-    <a href="http://localhost:8080/Assignment2/upload_pfp_page.php"><li>Upload Profile Pic Here</li></a>
+    <a href="http://localhost:8080/Assignment3/upload_pfp_page.php"><li>Upload Profile Pic Here</li></a>
 
     <!-- Inline styles for profile picture box -->
     <style>
