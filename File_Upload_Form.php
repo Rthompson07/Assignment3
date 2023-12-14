@@ -133,33 +133,43 @@ if (count($files) > 2) {
     echo '<tr><th>File Number</th><th>File Name</th><th>Uploaded By</th><th>Action</th></tr>';
     $fileCount = 0;
 
+    $allowedTypes = array("jpg", "png", "jpeg", "gif");
+
     foreach ($files as $file) {
         if ($file !== "." && $file !== "..") {
-            $fileCount++;
-            $filePath = "uploads/" . $file;
+            // Get the file extension
+            $fileExtension = pathinfo($file, PATHINFO_EXTENSION);
 
-            echo "<tr>";
-            echo "<td>$fileCount</td>";
-            echo "<td>$file</td>";
-            echo "<td>$first_name $last_name</td>";
-            echo "<td>";
-            echo "<a href='upload_file_render.php?delete={$file}'>Delete</a>";
-            echo " | ";
-            echo "<a href='File_Edit_Form.php?edit={$file}'>Edit</a>";
-            echo " | ";
-            echo "<a href='#' onclick=\"openFileExplorer()\">Move</a>";
+            // Check if the file extension is allowed
+            if (in_array(strtolower($fileExtension), $allowedTypes)) {
+                $fileCount++;
+                $filePath = "uploads/" . $file;
 
-// Hidden file input element
-            echo "<input type='file' id='fileInput' style='display: none;'>";
+                echo "<tr>";
+                echo "<td>$fileCount</td>";
+                echo "<td>$file</td>";
+                echo "<td>$first_name $last_name</td>";
+                echo "<td>";
+                echo "<a href='upload_file_render.php?delete={$file}'>Delete</a>";
+                echo " | ";
+                echo "<a href='File_Edit_Form.php?edit={$file}'>Edit</a>";
+                echo " | ";
+                echo "<a href='#' onclick=\"openFileExplorer()\">Move</a>";
 
-            echo "<script>
-    function openFileExplorer() {
-        // Trigger the click event of the file input element
-        document.getElementById('fileInput').click();
-    }
-</script>";
-            echo "</td>";
-            echo "</tr>";
+                // Hidden file input element
+                echo "<input type='file' id='fileInput' style='display: none;'>";
+
+                echo "<script>
+                    function openFileExplorer() {
+                        // Trigger the click event of the file input element
+                        document.getElementById('fileInput').click();
+                    }
+                </script>";
+                echo "</td>";
+                echo "</tr>";
+            } else {
+                echo "<p>File $file has an invalid extension. Only JPG, PNG, JPEG, and GIF files are allowed.</p>";
+            }
         }
     }
 
@@ -168,6 +178,7 @@ if (count($files) > 2) {
     echo '<p>No files uploaded yet.</p>';
 }
 ?>
+
 
 <?php
 // Include the footer file
