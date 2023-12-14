@@ -15,6 +15,30 @@ if (!isset($_SESSION['email_address'])) {
 $email_address = $_SESSION['email_address'];
 $first_name = $_SESSION['first_name'];
 $last_name = $_SESSION['last_name'];
+$user_type = sanitize($_SESSION['user_type']);
+
+if ($user_type === 'p') {
+    // If user_type is "p", you can redirect them to another page or show an error message.
+    header("Location: Warning.php"); // Replace with the appropriate URL
+    exit;
+} elseif ($user_type === 'v') {
+    // If user_type is "p", you can redirect them to another page or show an error message.
+    header("Location: Warning.php"); // Replace with the appropriate URL
+    exit;
+} elseif ($user_type === 'd') {
+    // If user_type is "p", you can redirect them to another page or show an error message.
+    header("Location: Warning.php"); // Replace with the appropriate URL
+    exit;
+}
+elseif ($user_type === 'c') {
+    // If user_type is "p", you can redirect them to another page or show an error message.
+    header("Location: Warning.php"); // Replace with the appropriate URL
+    exit;
+}
+
+
+
+
 
 echo '<div class="alert alert-success" role="alert"> Welcome ' . $first_name . ' ' . $last_name .  '</div>';
 ?>
@@ -115,9 +139,9 @@ if (count($files) > 2) {
             $filePath = "uploads/" . $file;
 
             echo "<tr>";
-            echo "<td>{$fileCount}</td>";
-            echo "<td>{$file}</td>";
-            echo "<td>{$first_name} {$last_name}</td>";
+            echo "<td>$fileCount</td>";
+            echo "<td>$file</td>";
+            echo "<td>$first_name $last_name</td>";
             echo "<td>";
             echo "<a href='upload_file_render.php?delete={$file}'>Delete</a>";
             echo " | ";

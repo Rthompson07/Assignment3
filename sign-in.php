@@ -19,6 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // TODO: Sanitize and validate user input.
         $email_address = sanitize($email_address);
 
+
         // TODO: Check user credentials against the database.
         try {
             $conn = db_connect();
@@ -43,6 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['email_address'] = $user['email_address'];
             $_SESSION['first_name'] = $user['first_name'];
             $_SESSION['last_name'] = $user['last_name'];
+            $_SESSION['user_type'] = $user['user_type'];
 
            require_once './db_population_script.php';
 

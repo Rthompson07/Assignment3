@@ -31,6 +31,13 @@
             <label for="message">Message:</label>
             <textarea name="message" rows="5" class="form-control"></textarea>
         </div>
+        <tr>
+            <td height = "20" valign = "bottom">Attach File:</td>
+        </tr>
+
+        <tr baseline = "bottom">
+            <td baseline = "bottom"><input name = "filea" type = "file" id = "filea" size = "16"></td>
+        </tr>
         <button type="submit" class="btn btn-primary">Send Email</button>
     </form>
 </div>
