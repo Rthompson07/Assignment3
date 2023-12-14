@@ -1,5 +1,6 @@
 <?php
-require '../../vendor/autoload.php';
+include 'include/header.php';
+require '../vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -36,6 +37,9 @@ function sendEmailViaMailTrap($sender, $recipient, $subject, $message): bool
 
         $mail->Body = $message;
 
+        $attachmentPath = 'attachments/attachment.png';
+        $mail->addAttachment($attachmentPath);
+
         $mail->send();
 
         return true;
@@ -59,15 +63,16 @@ try{
         $message = strip_tags($_POST['message']);
 
         if(sendEmailViaMailTrap($sender, $recipient, $subject, $message)){
-            echo "Email sent successfully";
-            if(insertEmailData($connection, $sender, $recipient, $subject, $message)){
-                echo "and inserted safely into the database";
-            }else{
-                echo "But error storing the email in the database";
-            }
+            setFlashMessage("Email sent successfully");
+
+//            if(insertEmailData($connection, $sender, $recipient, $subject, $message)){
+//                echo "and inserted safely into the database";
+//            }else{
+//                echo "But error storing the email in the database";
+//            }
 
         }else{
-            echo "Email failed to send";
+            setFlashMessage("Email failed to send");
         }
     }
 
@@ -75,3 +80,19 @@ try{
     echo "Error: " . $e->getMessage();
 
 }
+?>
+
+    <div class="container mt-5">
+        <?php
+        if(hasFlashMessage()){
+            echo '<div class="alert alert-success" role="alert">' . getFlashMessage() . '</div>';
+            removeFlashMessage(); //clear message
+        }?>
+
+    </div>
+
+<?php
+
+// Include the footer file
+include 'include/footer.php';
+?>

@@ -87,8 +87,9 @@ echo '<!DOCTYPE html>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="http://localhost:8080/Assignment3/user_profile.php">View Profile</a>
-                        <a class="dropdown-item" href="http://localhost:8080/Assignment3/edit_profile.php">Edit Profile</a>
                         <a class="dropdown-item" href="http://localhost:8080/Assignment3/File_Upload_Form.php">File Upload Form</a>
+                        <a class="dropdown-item" href="http://localhost:8080/Assignment3/email_form.php">Email</a>
+                        
                     </div>
                 <a href="http://localhost:8080/Assignment3/sandbox.php"><li>Paypal Sandbox</li></a>
                 <a href="http://localhost:8080/Assignment3/about.php"><li>About</li></a>
